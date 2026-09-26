@@ -1,0 +1,106 @@
+{
+  "distance": "canberra",
+  "datasets": [
+    {
+      "dataset": "drosophila_enhancers_stark",
+      "classes": [
+        "negative",
+        "positive"
+      ],
+      "train_sequences": 5184,
+      "test_sequences": 1730,
+      "alphabet": "acgt",
+      "vector_dimension": 24,
+      "accuracy": 0.6572254335260116,
+      "macro_f1": 0.6570511459764878,
+      "confusion_matrix": [
+        [
+          549,
+          316
+        ],
+        [
+          277,
+          588
+        ]
+      ]
+    },
+    {
+      "dataset": "human_enhancers_cohn",
+      "classes": [
+        "negative",
+        "positive"
+      ],
+      "train_sequences": 20843,
+      "test_sequences": 6948,
+      "alphabet": "acgt",
+      "vector_dimension": 24,
+      "accuracy": 0.5993091537132987,
+      "macro_f1": 0.5991600594387338,
+      "confusion_matrix": [
+        [
+          2015,
+          1459
+        ],
+        [
+          1325,
+          2149
+        ]
+      ]
+    },
+    {
+      "dataset": "human_enhancers_ensembl",
+      "classes": [
+        "negative",
+        "positive"
+      ],
+      "train_sequences": 123872,
+      "test_sequences": 30970,
+      "alphabet": "acgnt",
+      "vector_dimension": 35,
+      "accuracy": 0.7900226025185664,
+      "macro_f1": 0.7880054265574077,
+      "confusion_matrix": [
+        [
+          10723,
+          4762
+        ],
+        [
+          1741,
+          13744
+        ]
+      ]
+    },
+    {
+      "dataset": "human_ensembl_regulatory",
+      "classes": [
+        "enhancer",
+        "ocr",
+        "promoter"
+      ],
+      "train_sequences": 231348,
+      "test_sequences": 57713,
+      "alphabet": "acgnt",
+      "vector_dimension": 35,
+      "accuracy": 0.5508464297471973,
+      "macro_f1": 0.541256051184102,
+      "confusion_matrix": [
+        [
+          12550,
+          4165,
+          4663
+        ],
+        [
+          6936,
+          6578,
+          3962
+        ],
+        [
+          4441,
+          1755,
+          12663
+        ]
+      ]
+    }
+  ],
+  "elapsed_seconds": 4352.477400300006
+}

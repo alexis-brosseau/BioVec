@@ -1,0 +1,106 @@
+{
+  "distance": "canberra",
+  "datasets": [
+    {
+      "dataset": "drosophila_enhancers_stark",
+      "classes": [
+        "negative",
+        "positive"
+      ],
+      "train_sequences": 5184,
+      "test_sequences": 1730,
+      "alphabet": "acgt",
+      "vector_dimension": 16,
+      "accuracy": 0.5670520231213872,
+      "macro_f1": 0.5670507211923187,
+      "confusion_matrix": [
+        [
+          489,
+          376
+        ],
+        [
+          373,
+          492
+        ]
+      ]
+    },
+    {
+      "dataset": "human_enhancers_cohn",
+      "classes": [
+        "negative",
+        "positive"
+      ],
+      "train_sequences": 20843,
+      "test_sequences": 6948,
+      "alphabet": "acgt",
+      "vector_dimension": 16,
+      "accuracy": 0.6331318364997122,
+      "macro_f1": 0.6331314641192154,
+      "confusion_matrix": [
+        [
+          2196,
+          1278
+        ],
+        [
+          1271,
+          2203
+        ]
+      ]
+    },
+    {
+      "dataset": "human_enhancers_ensembl",
+      "classes": [
+        "negative",
+        "positive"
+      ],
+      "train_sequences": 123872,
+      "test_sequences": 30970,
+      "alphabet": "acgnt",
+      "vector_dimension": 25,
+      "accuracy": 0.7852760736196319,
+      "macro_f1": 0.7835745934293359,
+      "confusion_matrix": [
+        [
+          10787,
+          4698
+        ],
+        [
+          1952,
+          13533
+        ]
+      ]
+    },
+    {
+      "dataset": "human_ensembl_regulatory",
+      "classes": [
+        "enhancer",
+        "ocr",
+        "promoter"
+      ],
+      "train_sequences": 231348,
+      "test_sequences": 57713,
+      "alphabet": "acgnt",
+      "vector_dimension": 25,
+      "accuracy": 0.5416284026129295,
+      "macro_f1": 0.5361538743472649,
+      "confusion_matrix": [
+        [
+          11590,
+          5365,
+          4423
+        ],
+        [
+          7002,
+          7085,
+          3389
+        ],
+        [
+          4055,
+          2220,
+          12584
+        ]
+      ]
+    }
+  ],
+  "elapsed_seconds": 730.7200668999867
+}

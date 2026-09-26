@@ -1,0 +1,14 @@
+AFproject-compatible CRM scores
+-------------------------------
+Tissue	k	n	percent
+FB	228	300	76.0
+FP	188	253	74.3
+FT	35	36	97.2
+HM	198	300	66.0
+HL	22	36	61.1
+HH	104	136	76.5
+FE	106	136	77.9
+
+Weighted average:	73.60
+Standard deviat.:	10.54
+Average:		75.58
