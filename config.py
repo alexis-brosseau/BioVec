@@ -18,7 +18,7 @@ SEARCH_BATCH_SIZE = 128
 
 def make_vectorizer(chars: str) -> SequenceVectorizer:
     vectorizers = [
-        # Vectorizer.rbf.params(centers=[0.0, 1.0], sigma=0.0075),
+        Vectorizer.rbf.params(centers=[0.0, 1.0], sigma=0.0075),
         Vectorizer.ngram.params(n=2, dim=len(chars) ** 2),
     ]
     return SequenceVectorizer(chars=chars, vectorizers=vectorizers)
