@@ -126,7 +126,7 @@ def make_vectorizer(chars: str) -> SequenceVectorizer:
     return SequenceVectorizer(
         chars=chars,
         vectorizers=[
-            Vectorizer.bigram.params(dim=len(chars) ** 2),
+            Vectorizer.ngram.params(n=2, dim=len(chars) ** 2),
         ],
     )
 ```
